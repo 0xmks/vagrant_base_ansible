@@ -28,3 +28,13 @@ $ vagrant ssh master
 # Vagrantfile設定方法参考
 * [Vagrant Documentation] ( https://www.vagrantup.com/docs/ )
 
+# あると便利なVagrant plugin
+* sahara ( https://github.com/jedi4ever/sahara )
+```
+$ vagrant plugin install sahara
+```
+
+* vagrant-cachier ( https://github.com/fgrehm/vagrant-cachier )
+```
+$ vagrant plugin install vagrant-cachier
+```
